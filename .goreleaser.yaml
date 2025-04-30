@@ -64,13 +64,13 @@ archives:
 brews:
   - name: cloud-clipboard-go
     repository:
-      owner: Jonnyan404
+      owner: MuggleTan
       name: homebrew-tap
       token: "{{ .Env.HOMEBREW_TAP_GITHUB_TOKEN }}"
     commit_author:
       name: goreleaserbot
       email: goreleaser@carlosbecker.com
-    homepage: "https://github.com/Jonnyan404/cloud-clipboard-go"
+    homepage: "https://github.com/MuggleTan/cloud-clipboard-go"
     description: "云剪贴板：跨设备共享文本和文件"
     license: "MIT"
     install: |
